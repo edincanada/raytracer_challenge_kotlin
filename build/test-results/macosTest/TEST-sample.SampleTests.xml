@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="sample.SampleTests" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-05-30T14:25:03" hostname="8c8590171674.ant.amazon.com" time="0.095">
+  <properties/>
+  <testcase name="testReflection" classname="sample.SampleTests" time="0.095">
+    <failure message="kotlin.AssertionError: Expected &lt;Tuple(x=0.19032, y=0.2379, z=0.14274, w=1.0)&gt;, actual &lt;Tuple(x=0.19073193, y=0.2384149, z=0.14304894, w=1.0)&gt;." type="kotlin.AssertionError">kotlin.AssertionError: Expected &lt;Tuple(x=0.19032, y=0.2379, z=0.14274, w=1.0)&gt;, actual &lt;Tuple(x=0.19073193, y=0.2384149, z=0.14304894, w=1.0)&gt;.
+	at kotlin.Throwable.&lt;init&gt;(/Users/teamcity1/teamcity_work/4d622a065c544371/runtime/src/main/kotlin/kotlin/Throwable.kt:22)
+	at kotlin.Error.&lt;init&gt;(/Users/teamcity1/teamcity_work/4d622a065c544371/runtime/src/main/kotlin/kotlin/Exceptions.kt:12)
+	at kotlin.AssertionError.&lt;init&gt;(/Users/teamcity1/teamcity_work/4d622a065c544371/runtime/src/main/kotlin/kotlin/Exceptions.kt:128)
+	at kotlin.test.DefaultAsserter.fail(/Users/teamcity1/teamcity_work/4d622a065c544371/backend.native/build/stdlib/kotlin/test/DefaultAsserter.kt:16)
+	at kotlin.test.Asserter.assertTrue(/Users/teamcity1/teamcity_work/4d622a065c544371/backend.native/build/stdlib/kotlin/test/Assertions.kt:196)
+	at kotlin.test.Asserter.assertEquals(/Users/teamcity1/teamcity_work/4d622a065c544371/backend.native/build/stdlib/kotlin/test/Assertions.kt:215)
+	at kotlin.test.assertEquals(/Users/teamcity1/teamcity_work/4d622a065c544371/backend.native/build/stdlib/kotlin/test/Assertions.kt:51)
+	at kotlin.test.assertEquals$default(/Users/teamcity1/teamcity_work/4d622a065c544371/backend.native/build/stdlib/kotlin/test/Assertions.kt:50)
+	at sample.SampleTests.testReflection(/Volumes/Workspace/RaytracerChallenge/src/macosTest/kotlin/sample/SampleTests.kt:1428)
+	at sample.$SampleTests$test$0.$testReflection$FUNCTION_REFERENCE$19.invoke#internal(/Volumes/Workspace/RaytracerChallenge/src/macosTest/kotlin/sample/SampleTests.kt:1390)
+	at sample.$SampleTests$test$0.$testReflection$FUNCTION_REFERENCE$19.$&lt;bridge-UNNN&gt;invoke(/Volumes/Workspace/RaytracerChallenge/src/macosTest/kotlin/sample/SampleTests.kt:1390)
+	at kotlin.native.internal.test.BaseClassSuite.TestCase.run(/Users/teamcity1/teamcity_work/4d622a065c544371/runtime/src/main/kotlin/kotlin/native/internal/test/TestSuite.kt:85)
+	at kotlin.native.internal.test.TestRunner.run#internal(/Users/teamcity1/teamcity_work/4d622a065c544371/runtime/src/main/kotlin/kotlin/native/internal/test/TestRunner.kt:229)
+	at kotlin.native.internal.test.TestRunner.runIteration#internal(/Users/teamcity1/teamcity_work/4d622a065c544371/runtime/src/main/kotlin/kotlin/native/internal/test/TestRunner.kt:252)
+	at kotlin.native.internal.test.TestRunner.run(/Users/teamcity1/teamcity_work/4d622a065c544371/runtime/src/main/kotlin/kotlin/native/internal/test/TestRunner.kt:270)
+	at kotlin.native.internal.test.testLauncherEntryPoint(/Users/teamcity1/teamcity_work/4d622a065c544371/runtime/src/main/kotlin/kotlin/native/internal/test/Launcher.kt:22)
+	at kotlin.native.internal.test.main(/Users/teamcity1/teamcity_work/4d622a065c544371/runtime/src/main/kotlin/kotlin/native/internal/test/Launcher.kt:26)
+	at &lt;global&gt;.Konan_start(/Users/teamcity1/teamcity_work/4d622a065c544371/runtime/src/main/kotlin/kotlin/native/internal/test/Launcher.kt:25)
+	at &lt;global&gt;.Init_and_run_start(Unknown Source)
+	at &lt;global&gt;.start(Unknown Source)
+	at &lt;global&gt;.0x0(Unknown Source)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
